@@ -10,6 +10,8 @@ RUN npm install --silent http-server
 
 COPY index.html ./
 
+COPY main.css ./
+
 CMD node_modules/.bin/http-server
 
 EXPOSE 8080
