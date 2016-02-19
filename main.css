@@ -1,0 +1,17 @@
+.top {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+    border: 1px solid red;
+}
+.left {
+    position:absolute;
+    left:0; top:92px; bottom: 0;
+    width: 178px;
+    border: 1px solid blue;
+}
+.content {
+    position: absolute;
+    left:178px; top:92px; right:0; bottom:0;
+    border: 1px solid green;
+}
