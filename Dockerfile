@@ -6,13 +6,9 @@ WORKDIR angular-filemanager
 
 RUN git checkout embeddable
 
-RUN npm install --silent
-
-RUN node_modules/.bin/gulp build
-
 RUN npm install --silent http-server
 
-COPY index.html ./
+COPY *.html ./
 
 COPY main.css ./
 
