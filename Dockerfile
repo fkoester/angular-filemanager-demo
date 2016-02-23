@@ -10,7 +10,7 @@ RUN npm install --silent http-server
 
 COPY *.html ./
 
-COPY main.css ./
+COPY *.css ./
 
 CMD node_modules/.bin/http-server
 
