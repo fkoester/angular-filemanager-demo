@@ -10,7 +10,7 @@
     width: 178px;
     border: 1px solid blue;
 }
-.content {
+.parent {
     position: absolute;
     left:178px; top:92px; right:0; bottom:0;
     border: 1px solid green;
